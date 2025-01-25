@@ -74,7 +74,7 @@ class Avatar:
     def init(self):
         if self.preparation:
             if os.path.exists(self.avatar_path):
-                response = input(f"{self.avatar_id} exists, Do you want to re-create it ? (y/n)")
+                # response = input(f"{self.avatar_id} exists, Do you want to re-create it ? (y/n)")
                 # if response.lower() == "y":
                 if False:
                     shutil.rmtree(self.avatar_path)
